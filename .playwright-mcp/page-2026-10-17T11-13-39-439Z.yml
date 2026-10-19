@@ -1,0 +1,167 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - button "Toggle navigation" [ref=f1e7]
+        - link "BrewFlow" [ref=f1e9] [cursor=pointer]:
+          - /url: /menu
+      - generic [ref=f1e12]:
+        - button "Toggle theme" [ref=f1e13]
+        - button "Customer" [ref=f1e17]
+  - generic [ref=f1e24]:
+    - button "Customer" [ref=f1e25]
+    - button "Cashier" [ref=f1e29]
+    - button "Barista" [ref=f1e33]
+    - button "Pickup Display" [ref=f1e36]
+    - button "Owner" [ref=f1e39]
+    - button "Demo Control" [ref=f1e43]
+  - main [ref=f1e47]:
+    - generic [ref=f1e48]:
+      - generic [ref=f1e49]:
+        - heading "BrewFlow" [level=1] [ref=f1e51]
+        - searchbox "Search menu..." [ref=f1e56]
+        - generic [ref=f1e57]:
+          - button "All" [ref=f1e58]
+          - button "Espresso Based" [ref=f1e59]
+          - button "Manual Brew" [ref=f1e60]
+          - button "Non-Coffee" [ref=f1e61]
+          - button "Pastry" [ref=f1e62]
+      - generic [ref=f1e63]:
+        - article [ref=f1e64]:
+          - img "Espresso Single Origin" [ref=f1e66]
+          - generic [ref=f1e67]:
+            - generic [ref=f1e68]:
+              - generic [ref=f1e69]:
+                - heading "Espresso Single Origin" [level=3] [ref=f1e70]
+                - paragraph [ref=f1e71]: Double shot espresso dari biji kopi pilihan Gayo, Aceh
+              - generic [ref=f1e72]: Rp 28.000
+            - button "Add to order" [ref=f1e73]
+        - article [ref=f1e75]:
+          - img "Cappuccino" [ref=f1e77]
+          - generic [ref=f1e78]:
+            - generic [ref=f1e79]:
+              - generic [ref=f1e80]:
+                - heading "Cappuccino" [level=3] [ref=f1e81]
+                - paragraph [ref=f1e82]: Espresso dengan steamed milk dan foam lembut
+              - generic [ref=f1e83]: Rp 35.000
+            - button "Add to order" [ref=f1e84]
+        - article [ref=f1e86]:
+          - img "Café Latte" [ref=f1e88]
+          - generic [ref=f1e89]:
+            - generic [ref=f1e90]:
+              - generic [ref=f1e91]:
+                - heading "Café Latte" [level=3] [ref=f1e92]
+                - paragraph [ref=f1e93]: Espresso dengan steamed milk, rasio lebih creamy
+              - generic [ref=f1e94]: Rp 38.000
+            - button "Add to order" [ref=f1e95]
+        - article [ref=f1e97]:
+          - img "Americano" [ref=f1e99]
+          - generic [ref=f1e100]:
+            - generic [ref=f1e101]:
+              - generic [ref=f1e102]:
+                - heading "Americano" [level=3] [ref=f1e103]
+                - paragraph [ref=f1e104]: Espresso dengan air panas, rasa bold dan clean
+              - generic [ref=f1e105]: Rp 32.000
+            - button "Add to order" [ref=f1e106]
+        - article [ref=f1e108]:
+          - img "Mocha" [ref=f1e110]
+          - generic [ref=f1e111]:
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - heading "Mocha" [level=3] [ref=f1e114]
+                - paragraph [ref=f1e115]: Espresso dengan coklat Belgia dan steamed milk
+              - generic [ref=f1e116]: Rp 42.000
+            - button "Add to order" [ref=f1e117]
+        - article [ref=f1e119]:
+          - img "V60 Pour Over" [ref=f1e121]
+          - generic [ref=f1e122]:
+            - generic [ref=f1e123]:
+              - generic [ref=f1e124]:
+                - heading "V60 Pour Over" [level=3] [ref=f1e125]
+                - paragraph [ref=f1e126]: Single origin Gayo dengan metode V60, clean dan bright
+              - generic [ref=f1e127]: Rp 45.000
+            - button "Add to order" [ref=f1e128]
+        - article [ref=f1e130]:
+          - img "Cold Brew" [ref=f1e132]
+          - generic [ref=f1e133]:
+            - generic [ref=f1e134]:
+              - generic [ref=f1e135]:
+                - heading "Cold Brew" [level=3] [ref=f1e136]
+                - paragraph [ref=f1e137]: Cold brew 18 jam, smooth dan low acidity
+              - generic [ref=f1e138]: Rp 40.000
+            - button "Add to order" [ref=f1e139]
+        - article [ref=f1e141]:
+          - img "Aeropress" [ref=f1e143]
+          - generic [ref=f1e144]:
+            - generic [ref=f1e145]:
+              - generic [ref=f1e146]:
+                - heading "Aeropress" [level=3] [ref=f1e147]
+                - paragraph [ref=f1e148]: Full immersion brew, body rich dan balanced
+              - generic [ref=f1e149]: Rp 42.000
+            - button "Add to order" [ref=f1e150]
+        - article [ref=f1e152]:
+          - img "Matcha Latte" [ref=f1e154]
+          - generic [ref=f1e155]:
+            - generic [ref=f1e156]:
+              - generic [ref=f1e157]:
+                - heading "Matcha Latte" [level=3] [ref=f1e158]
+                - paragraph [ref=f1e159]: Premium Japanese matcha dengan steamed milk
+              - generic [ref=f1e160]: Rp 40.000
+            - button "Add to order" [ref=f1e161]
+        - article [ref=f1e163]:
+          - img "Chocolate" [ref=f1e165]
+          - generic [ref=f1e166]:
+            - generic [ref=f1e167]:
+              - generic [ref=f1e168]:
+                - heading "Chocolate" [level=3] [ref=f1e169]
+                - paragraph [ref=f1e170]: Coklat premium dengan steamed milk
+              - generic [ref=f1e171]: Rp 38.000
+            - button "Add to order" [ref=f1e172]
+        - article [ref=f1e174]:
+          - img "Lemon Tea" [ref=f1e176]
+          - generic [ref=f1e177]:
+            - generic [ref=f1e178]:
+              - generic [ref=f1e179]:
+                - heading "Lemon Tea" [level=3] [ref=f1e180]
+                - paragraph [ref=f1e181]: Fresh brewed tea dengan lemon slice
+              - generic [ref=f1e182]: Rp 28.000
+            - button "Add to order" [ref=f1e183]
+        - article [ref=f1e185]:
+          - img "Butter Croissant" [ref=f1e187]
+          - generic [ref=f1e188]:
+            - generic [ref=f1e189]:
+              - generic [ref=f1e190]:
+                - heading "Butter Croissant" [level=3] [ref=f1e191]
+                - paragraph [ref=f1e192]: Croissant butter premium, flaky dan buttery
+              - generic [ref=f1e193]: Rp 28.000
+            - button "Add to order" [ref=f1e194]
+        - article [ref=f1e196]:
+          - img "Banana Bread" [ref=f1e198]
+          - generic [ref=f1e199]:
+            - generic [ref=f1e200]:
+              - generic [ref=f1e201]:
+                - heading "Banana Bread" [level=3] [ref=f1e202]
+                - paragraph [ref=f1e203]: Homemade banana bread dengan topping almond slice
+              - generic [ref=f1e204]: Rp 32.000
+            - button "Add to order" [ref=f1e205]
+        - article [ref=f1e207]:
+          - img "Cheesecake Slice" [ref=f1e209]
+          - generic [ref=f1e210]:
+            - generic [ref=f1e211]:
+              - generic [ref=f1e212]:
+                - heading "Cheesecake Slice" [level=3] [ref=f1e213]
+                - paragraph [ref=f1e214]: New York style cheesecake dengan berry compote
+              - generic [ref=f1e215]: Rp 45.000
+            - button "Add to order" [ref=f1e216]
+        - article [ref=f1e218]:
+          - img "Tiramisu" [ref=f1e220]
+          - generic [ref=f1e221]:
+            - generic [ref=f1e222]:
+              - generic [ref=f1e223]:
+                - heading "Tiramisu" [level=3] [ref=f1e224]
+                - paragraph [ref=f1e225]: Classic Italian tiramisu dengan mascarpone
+              - generic [ref=f1e226]: Rp 48.000
+            - button "Add to order" [ref=f1e227]
+  - generic [ref=f1e283]:
+    - paragraph [ref=f1e287]: Cappuccino ditambahkan ke cart
+    - button "Dismiss" [ref=f1e288]

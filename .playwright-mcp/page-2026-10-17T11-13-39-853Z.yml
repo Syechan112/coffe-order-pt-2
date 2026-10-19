@@ -1,0 +1,21 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - generic [ref=f2e6]:
+        - button "Toggle navigation" [ref=f2e7]
+        - link "BrewFlow" [ref=f2e9] [cursor=pointer]:
+          - /url: /menu
+      - generic [ref=f2e12]:
+        - button "Toggle theme" [ref=f2e13]
+        - button "Customer" [ref=f2e17]
+  - generic [ref=f2e24]:
+    - button "Customer" [ref=f2e25]
+    - button "Cashier" [ref=f2e29]
+    - button "Barista" [ref=f2e33]
+    - button "Pickup Display" [ref=f2e36]
+    - button "Owner" [ref=f2e39]
+    - button "Demo Control" [ref=f2e43]
+  - main [ref=f2e47]:
+    - generic [ref=f2e48]:
+      - paragraph [ref=f2e53]: Your cart is empty.
+      - paragraph [ref=f2e54]: Browse the menu to add items.
