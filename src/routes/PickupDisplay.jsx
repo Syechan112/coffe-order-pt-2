@@ -1,4 +1,5 @@
 import usePickupDisplay from '../hooks/usePickupDisplay';
+import useTts from '../hooks/useTts';
 import DisplayHeader from '../components/pickup/DisplayHeader';
 import StatusSummary from '../components/pickup/StatusSummary';
 import DisplayColumn from '../components/pickup/DisplayColumn';
@@ -7,6 +8,9 @@ import DisplayFooter from '../components/pickup/DisplayFooter';
 export default function PickupDisplay() {
   const { clock, isFullscreen, preparing, ready, toggleFullscreen } =
     usePickupDisplay();
+
+  // Text-to-speech: announce ready orders
+  useTts();
 
   return (
     <main className="min-h-[calc(100vh-80px)] bg-[#faf9f6] px-4 py-5 text-stone-900 sm:px-6 sm:py-7 lg:px-10 lg:py-8">

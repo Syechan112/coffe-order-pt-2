@@ -1,22 +1,50 @@
 export default function StatCard({ label, value, icon: Icon, color }) {
   const colorMap = {
-    blue: 'bg-blue-500/10 text-blue-600',
-    green: 'bg-emerald-500/10 text-emerald-600',
-    emerald: 'bg-emerald-500/10 text-emerald-600',
-    amber: 'bg-amber-500/10 text-amber-600',
-    rose: 'bg-rose-500/10 text-rose-600',
+    blue: {
+      icon: 'bg-blue-50 text-blue-600',
+      value: 'text-blue-700',
+    },
+    green: {
+      icon: 'bg-emerald-50 text-emerald-700',
+      value: 'text-stone-900',
+    },
+    emerald: {
+      icon: 'bg-emerald-50 text-emerald-700',
+      value: 'text-stone-900',
+    },
+    amber: {
+      icon: 'bg-amber-50 text-amber-700',
+      value: 'text-stone-900',
+    },
+    rose: {
+      icon: 'bg-rose-50 text-rose-700',
+      value: 'text-stone-900',
+    },
   };
-  const bg = colorMap[color] || colorMap.blue;
+
+  const theme = colorMap[color] || colorMap.blue;
 
   return (
-    <div className="p-4 bg-white rounded-2xl border border-border-subtle">
-      <div className="flex items-center gap-3 mb-2">
-        <div className={`p-2 rounded-xl ${bg.split(' ')[0]} flex items-center justify-center`}>
-          <Icon size={18} className={bg.split(' ')[1]} />
-        </div>
-        <span className="text-xs font-medium text-text-muted">{label}</span>
+    <div className="min-w-0 rounded-2xl border border-stone-200/80 bg-white p-5 transition-colors hover:border-stone-300 sm:p-6">
+      <div className="flex items-center justify-between gap-3">
+        <p className="truncate text-sm font-medium text-stone-500">
+          {label}
+        </p>
+
+        {Icon && (
+          <div
+            className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${theme.icon}`}
+          >
+            <Icon size={18} strokeWidth={1.8} />
+          </div>
+        )}
       </div>
-      <p className="text-2xl font-bold text-espresso">{value}</p>
+
+      <p
+        className={`mt-5 truncate text-3xl font-semibold tracking-[-0.045em] tabular-nums sm:text-4xl ${theme.value}`}
+      >
+        {value}
+      </p>
     </div>
   );
 }

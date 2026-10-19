@@ -1,1 +1,27 @@
+# Dependencies
 node_modules
+
+# Build output
+dist
+build
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Playwright test artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea
+.vscode
+
+# Logs
+*.log
+npm-debug.log*

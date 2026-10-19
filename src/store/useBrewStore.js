@@ -129,6 +129,14 @@ const useBrewStore = create((set, get) => ({
     });
   },
 
+  deleteProduct: (productId) => {
+    set((state) => {
+      const products = state.products.filter((p) => p.id !== productId);
+      saveState({ ...state, products });
+      return { products };
+    });
+  },
+
   generateTables: (count, zone = 'Indoor', prefix = 'T') => {
     set((state) => {
       let counter = 1;
