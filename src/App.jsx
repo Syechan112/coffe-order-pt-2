@@ -12,6 +12,7 @@ import BaristaDashboard from './routes/BaristaDashboard';
 import PickupDisplay from './routes/PickupDisplay';
 import OwnerDashboard from './routes/OwnerDashboard';
 import DemoControl from './routes/DemoControl';
+import NotFound from './routes/NotFound';
 
 export default function App() {
   const { loadFromStorage, syncFromExternal } = useBrewStore();
@@ -41,7 +42,7 @@ export default function App() {
         <Route path="/display" element={<PickupDisplay />} />
         <Route path="/owner" element={<OwnerDashboard />} />
         <Route path="/demo" element={<DemoControl />} />
-        <Route path="*" element={<Navigate to="/menu" replace />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );
